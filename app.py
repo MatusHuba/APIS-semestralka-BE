@@ -194,4 +194,5 @@ def DeleteTransaction(id):
         myDB.close()  
         return jsonify("deleted"),204
 
-app.run()
+if __name__ == "__main__":
+    app.run()
