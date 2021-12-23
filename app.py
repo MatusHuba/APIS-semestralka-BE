@@ -19,8 +19,10 @@ from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__)
 CORS(app)
-run_with_ngrok(app)
 
+@app.route("/", methods=["GET"])
+def main():
+    return "Works",200
 
 @app.route("/CreateDriver", methods = ["POST"])
 def CreateDriver():
