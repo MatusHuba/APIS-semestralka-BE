@@ -1,0 +1,1 @@
+update driver set name = "pname", phone="pphone" car="pcar" spz = "pspz" where id = pid;

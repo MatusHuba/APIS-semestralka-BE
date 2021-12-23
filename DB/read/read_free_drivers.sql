@@ -1,0 +1,1 @@
+select name, car, spz, driver_coord from driver where online=true and busy=false and valid=true;

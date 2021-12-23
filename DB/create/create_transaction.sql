@@ -1,0 +1,1 @@
+insert into transaction (driver_id, km_traveled, km_fee) values(pdriver_id, pkm_traveled, pkm_fee);

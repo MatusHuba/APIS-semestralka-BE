@@ -1,0 +1,1 @@
+insert into driver (name, phone, car, spz) values("pname", "pphone", "pcar", "pspz");
